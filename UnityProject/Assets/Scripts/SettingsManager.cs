@@ -6,7 +6,7 @@ using IniParser.Model;
 using Moments;
 
 public class SettingsManager : MonoBehaviour {
-    public SetQuiltAngle quiltSettings;
+    public LGContentManager quiltSettings;
 
     public ImageRecorder gifSettings;
 

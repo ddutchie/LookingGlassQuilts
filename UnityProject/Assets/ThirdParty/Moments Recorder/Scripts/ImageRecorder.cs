@@ -283,8 +283,7 @@ namespace Moments
             FlushMemory();
         }
 
-        private SetQuiltAngle setQuiltAngle;
-        public void ConvertQuiltToGif(Texture2D quilt, SetQuiltAngle.QuiltInfo quiltInfo)
+        public void ConvertQuiltToGif(Texture2D quilt, LGContentManager.QuiltInfo quiltInfo)
         {
             int height = (int)(quilt.height / quiltInfo.quilt_settings.viewY);
             int width = (int)(quilt.width / quiltInfo.quilt_settings.viewX);
